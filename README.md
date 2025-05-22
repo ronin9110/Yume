@@ -110,28 +110,29 @@ flutter run
 
 
 ### 1. Login
-![Login](./screenshots/login.png)
+<img src ="./screenshots/login.png" height="400" width="180"/>
 
 ### 2. Signin
-
-![Signin](./screenshots/signin.png)
+<img src ="./screenshots/signin.png" height="400" width="180"/>
 
 ### 3. Home Screen
-![Home Screen](./screenshots/home.png)
+<img src ="./screenshots/home" height="400" width="180"/>
 
 
 ### 4. Local songs
-![Local Songs](./screenshots/local.png)
+<img src ="./screenshots/local.png" height="400" width="180"/>
 
 
 ### 5. Voice Room
-![Voice Room](./screenshots/voiceroom.png)
+<img src ="./screenshots/voiceroom.png" height="400" width="180"/>
 
 
 ### 6. Dark Themed
-![Dark Themed](./screenshots/dark-welcome.png)
-![](./screenshots/dark-login.png)
-![](./screenshots/dark-home.png)
+<div>
+   <img src ="./screenshots/dark-welcome.png" height="400" width="180"/>
+   <img src ="./screenshots/login.png" height="400" width="180"/>
+   <img src ="./screenshots/dark-home.png" height="400" width="180"/>
+</div>
 
 
 
