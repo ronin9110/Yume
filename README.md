@@ -116,7 +116,7 @@ flutter run
 <img src ="./screenshots/signin.png" height="400" width="180"/>
 
 ### 3. Home Screen
-<img src ="./screenshots/home" height="400" width="180"/>
+<img src ="./screenshots/home.png" height="400" width="180"/>
 
 
 ### 4. Local songs
