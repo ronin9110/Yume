@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "632958302905",
+    "project_id": "yume-8c67e",
+    "storage_bucket": "yume-8c67e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632958302905:android:49dcaf5bad70b25c4f3968",
+        "android_client_info": {
+          "package_name": "com.example.yume"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632958302905-30j1ck5c5s3dc4ge3e45klog97atcovt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5dW05eHPqB8myDNSE28CCWrXbw2R77XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632958302905-30j1ck5c5s3dc4ge3e45klog97atcovt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "632958302905-0u5kp4svmmqgt5johgh3pdbjmt6jpuob.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.yume"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
