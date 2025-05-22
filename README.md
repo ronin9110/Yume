@@ -106,7 +106,7 @@ flutter run
 ## Screenshots
 
 ### 1. Welcome Page
-![Welcome Page](./screenshots/welcome.png)
+<img src ="./screenshots/welcome.png" height="400" width="180"/>
 
 
 ### 1. Login
