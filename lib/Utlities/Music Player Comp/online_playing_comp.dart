@@ -1,6 +1,6 @@
 import 'dart:async';
-
 import 'package:audio_service/audio_service.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 import 'package:spotify/spotify.dart';
@@ -12,7 +12,7 @@ import 'package:yume/Utlities/global_variables.dart' as global;
 
 class OnlinePlayingComp {
   static final spo = SpotifyApi(SpotifyApiCredentials(
-      '5243e7807dc0421a8efc2b2d0ddcb453', "978aa099b3d24ae49aa75d94df7ae23c"));
+      dotenv.env["CLIENT_ID"], dotenv.env["CLIENT_sECRET"]));
   static final yt = youtube.YoutubeExplode();
 
   static addqueue(

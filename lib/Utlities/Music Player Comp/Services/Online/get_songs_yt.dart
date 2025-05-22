@@ -9,13 +9,13 @@ import 'package:yume/Utlities/Music%20Player%20Comp/Services/song_to_media_item.
 import 'package:flutter/material.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
-final songs = [
-  'Espresso - Double shot version',
-  'Espresso',
-  'its been a Long, Long, Time',
-  'Careless Whisper',
-  'I know its over - 2011 remaster'
-];
+// final songs = [
+//   'Espresso - Double shot version',
+//   'Espresso',
+//   'its been a Long, Long, Time',
+//   'Careless Whisper',
+//   'I know its over - 2011 remaster'
+// ];
 // Asynchronous function to get a list of MediaItems representing songs
 Future<List<MediaItem>> getSongsYT(tracks) async {
   await requestSongPermission();

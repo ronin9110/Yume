@@ -52,7 +52,7 @@ dependencies:
   firebase_auth: ^5.1.1
   google_sign_in: ^6.2.1
   cloud_firestore: ^5.0.2
-  intl: ^0.19.0
+  intl: ^0.20.2
   rxdart: ^0.28.0
   custom_navigation_bar: ^0.8.2
   firebase_storage: ^12.1.1
@@ -72,6 +72,7 @@ dependencies:
   connectivity_plus: ^6.0.3
   speech_to_text: ^7.0.0
   text_marquee: ^0.0.2
+  flutter_dotenv: ^5.2.1
   
   
 

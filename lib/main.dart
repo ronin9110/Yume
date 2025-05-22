@@ -1,5 +1,6 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:yume/Screens/Music%20Player/music_player.dart';
 import 'package:yume/Utlities/Auth/user_provider.dart';
 import 'package:yume/Utlities/Music%20Player%20Comp/Services/Online/songs_provider_yt.dart';
@@ -27,11 +28,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 SongHandler _songHandler = SongHandler();
 
 Future<void> main() async {
+  
+  await dotenv.load(fileName: ".env");
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
+  print(dotenv.env["CLIENT_ID"]);
   _songHandler = await AudioService.init(
     builder: () => SongHandler(),
     config: const AudioServiceConfig(
