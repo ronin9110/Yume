@@ -130,7 +130,7 @@ flutter run
 ### 6. Dark Themed
 <div>
    <img src ="./screenshots/dark-welcome.png" height="400" width="180"/>
-   <img src ="./screenshots/login.png" height="400" width="180"/>
+   <img src ="./screenshots/dark-login.png" height="400" width="180"/>
    <img src ="./screenshots/dark-home.png" height="400" width="180"/>
 </div>
 
